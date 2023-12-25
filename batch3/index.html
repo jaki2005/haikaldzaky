@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="icon" href="img/logojeki.png" type="image/png">
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>Haikal Dzaky</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Jost&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    </head>
+
+    </head>
+    <body>
+    <section class="header">
+            <nav>
+                <a href="index.html"><img src="img/jekiklogoos.png" alt="jeki"  class="stbawite"></a>
+            <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" id="fah" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href=""><h1>Projects</h1></a></li>
+                    <li class="extras"><a href=""><h1>Extras</h1></a></li>
+                    <li class="lets"><a href=""><h1>Let's talk!</h1></a></li>
+                </ul>
+            </div>
+            <div class="nav-links-right" id="navLinksRight">
+                <ul>
+                    <li><a href=""><h1>Let's talk!</h1></a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" id="fafa" onclick="showMenu()"></i>
+            </nav>
+        </nav>
+
+    <div class="text-box">
+        <h1>Hey people, I'm <span>Haikal Dzaky.</span> <br>I love wandering through anything that involve creativity. <span>Here,</span> you can check out what I'm working on.</h1>
+        <p></p>
+    </div>
+    <div class="jeki">
+        <img src="img/jeki potrait2.png" alt="jek" class="center">
+    </div>
+    </section>
+
+
+
+
+    <!-----------NEWS----------->
+    <section class="news">
+
+        <div class="newss">
+            <h2>Featured Work</h2>
+            <p>LeetCode is an online platform for coding interview preparation.</p>
+        </div>
+
+        <div class="row">
+            <div class="information">
+                <h3>NEW FACILITIES</h3>
+                <p>It doesn’t have a more specific semantic element to
+                represent it. Sections should always have a heading,
+                with very few exceptions</p>
+            </div>
+            <div class="information">
+                <h3>OUR COMMUNITY</h3>
+                <p>It doesn’t have a more specific semantic element to
+                represent it. Sections should always have a heading,
+                with very few exceptions</p>
+            </div>
+            <div class="information">
+                <h3>NEW RESEARCH</h3>
+                <p>It doesn’t have a more specific semantic element to
+                represent it. Sections should always have a heading,
+                with very few exceptions</p>
+            </div>
+        </div>
+    
+
+    
+    <!--------------buildings--------------->
+    <section class="headerbuild">
+
+        <div class="buildings">
+            <h2>Our Sophisticated Buildings</h2>
+            <p>All the words that all been spoken, i choose to follow myself, even though "follow myself" i know had been spoken. </p>
+        </div>
+        
+        
+        <div class="row">
+            <div class="buildings-col">
+                <img src="eduford_img/house1.png">
+                <div class="layer">
+                    <h3>ABSURD</h3>
+                </div>
+            </div>
+            <div class="buildings-col">
+                <img src="eduford_img/newyork.png">
+                <div class="layer">
+                    <h3>CYNIC</h3>
+                </div>
+            </div>
+            <div class="buildings-col">
+                <img src="eduford_img/washington.png">
+                <div class="layer">
+                    <h3>NIHILIST</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+<!--------JavaScript for Toggle Menu------->
+<script>
+
+    var navLinks = document.getElementById("navLinks")
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+
+</body>
+</html>
